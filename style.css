@@ -1,0 +1,85 @@
+body, button {
+    background-color: black;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+}
+input:hover{
+    background-color: yellow;
+    color: black;
+}
+button{
+    color: white;
+    margin: 20px 0px;
+    border-style: none;
+    height: 50px;
+}
+#contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    max-width:90%;
+    height:80%;
+    margin: 0 auto;
+}
+#box{
+    background-color: white;
+    display: flex;
+    width: 65%;
+    height: 85%;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#welcome{
+    background-color: white;
+    display: flex;
+    width: 80%;
+    height: 45%;
+    text-align: center;
+    justify-content: center;
+    flex-flow: column;
+    display: none;
+    position: relative;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+header p{
+    color: white;
+    border-top: solid white 1px;
+    padding: 10px 50px 0px 50px;
+    margin: 20px 0px 0px 0px;
+}
+
+a {
+    color: #cccccc
+}
+p {
+    color: #cccccc
+}
+
+input{
+    border-style: none ;
+    border-bottom: solid #ccc 1px;
+    margin: 10px 0px;
+}
+
+#welcome a {
+    position: absolute;
+    bottom: 10px;
+}
+#welcome h1{
+    margin: 70px 10px;
+}
